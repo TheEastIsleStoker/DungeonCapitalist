@@ -3,7 +3,7 @@ guid: 0b9bd60a9ddc5004ba8bf1f407f4c757
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -4525,219 +4556,218 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite_84: 1285216188
-      sprite_117: 851466545
-      sprite_2: -1128610976
-      sprite_37: 1067290592
-      sprite_68: -530392299
-      sprite_128: -1078807379
-      sprite_118: 2031604980
-      sprite_141: -2111118097
-      sprite_144: -1184834391
-      sprite_209: 558978332
-      sprite_65: 220745692
-      sprite_67: 1387004998
-      sprite_195: -291813611
-      sprite_207: -195131065
-      sprite_196: -1660722676
-      sprite_13: -1905716809
-      sprite_96: 1490615903
-      sprite_52: -1654252031
-      sprite_93: 787412923
-      sprite_192: -2003948035
-      sprite_163: 1466513993
-      sprite_42: -1684352323
-      sprite_204: -229240748
-      sprite_73: 942329745
-      sprite_72: 793998072
-      sprite_132: -195134281
-      sprite_28: 681533886
-      sprite_200: 198689103
-      sprite_11: -941316686
-      sprite_61: -1555643099
-      sprite_89: 1187826756
-      sprite_115: -1478003600
-      sprite_29: -1873225078
-      sprite_63: -1834662487
-      sprite_49: 1626177529
-      sprite_130: -855236947
-      sprite_176: 1886545279
-      sprite_88: 2100826739
-      sprite_179: 299421332
-      sprite_119: -561587664
-      sprite_48: -1905645639
-      sprite_9: 1450550923
-      sprite_190: -473139573
-      sprite_53: -1461012059
-      sprite_83: 578499207
-      sprite_50: -326942530
-      sprite_160: -2083171577
-      sprite_131: -1122618902
-      sprite_15: 489233574
-      sprite_77: 2063699777
-      sprite_21: 1408406400
-      sprite_98: -1261922631
-      sprite_184: -1431145824
-      sprite_146: 172983619
-      sprite_136: -1425075124
-      sprite_110: -318008721
-      sprite_17: -1921696105
-      sprite_183: -107880619
-      sprite_47: 1864637903
-      sprite_161: 1254085499
-      sprite_39: 2014130096
-      sprite_20: -26197230
-      sprite_205: 966893042
-      sprite_138: -298092658
-      sprite_124: -763104437
-      sprite_31: -1181135058
-      sprite_16: -1524154313
-      sprite_30: -1084924630
-      sprite_36: -2085618975
-      sprite_10: 2130434246
-      sprite_6: -523478865
-      sprite_151: 1958216187
-      sprite_154: -1405191081
-      sprite_57: 928054345
-      sprite_64: 1050284282
-      sprite_127: 1828511065
-      sprite_168: 1754967795
-      sprite_170: 1694444419
-      sprite_74: 168612294
-      sprite_126: 1038121822
-      sprite_123: -538087231
-      sprite_91: -555407918
-      sprite_153: -750119914
-      sprite_70: -1142318079
-      sprite_193: 1008234012
-      sprite_19: -226601003
-      sprite_143: -987933170
-      sprite_5: 1394508942
-      sprite_103: -594441426
-      sprite_203: -148700009
-      sprite_145: -317293520
-      sprite_87: -1120264234
-      sprite_94: 2080408786
-      sprite_165: 467596668
-      sprite_112: -909388183
-      sprite_169: 1259254233
-      sprite_101: 1603886272
-      sprite_121: -1162286980
-      sprite_113: -1799010116
-      sprite_40: 1370538225
-      sprite_202: 1905753865
-      sprite_140: -1470526614
-      sprite_46: -1923069943
-      sprite_172: -744485067
-      sprite_3: 302317674
-      sprite_171: 701137361
-      sprite_25: -1464097319
-      sprite_129: -519999003
-      sprite_45: 1179612966
-      sprite_166: -1802152655
-      sprite_60: 2022621685
-      sprite_116: 2050074838
-      sprite_164: 1544210938
-      sprite_187: 1928544493
-      sprite_92: -1392951813
-      sprite_24: 99879093
-      sprite_186: 2113411303
-      sprite_107: 1329289534
-      sprite_194: -1533080778
-      sprite_27: -203763495
-      sprite_71: -192889783
+      sprite_0: -88803214
       sprite_1: -1931463414
-      sprite_99: 829321168
-      sprite_90: -1278924391
+      sprite_10: 2130434246
+      sprite_100: 220552529
+      sprite_101: 1603886272
+      sprite_102: -499509285
+      sprite_103: -594441426
+      sprite_104: -527528946
+      sprite_105: -237351302
+      sprite_106: 199576401
+      sprite_107: 1329289534
+      sprite_108: 848546260
+      sprite_109: 259054921
+      sprite_11: -941316686
+      sprite_110: -318008721
       sprite_111: -1176706361
-      sprite_78: -1514208640
-      sprite_44: -1398546103
-      sprite_120: -115940413
-      sprite_149: 1751854112
-      sprite_80: -959925290
-      sprite_197: 1546185387
-      sprite_152: 579689353
-      sprite_55: -1263526504
-      sprite_201: 1943348492
+      sprite_112: -909388183
+      sprite_113: -1799010116
+      sprite_114: 2002307898
+      sprite_115: -1478003600
+      sprite_116: 2050074838
+      sprite_117: 851466545
+      sprite_118: 2031604980
+      sprite_119: -561587664
       sprite_12: -1397046297
+      sprite_120: -115940413
+      sprite_121: -1162286980
+      sprite_122: 1174059750
+      sprite_123: -538087231
+      sprite_124: -763104437
+      sprite_125: 1342592180
+      sprite_126: 1038121822
+      sprite_127: 1828511065
+      sprite_128: -1078807379
+      sprite_129: -519999003
+      sprite_13: -1905716809
+      sprite_130: -855236947
+      sprite_131: -1122618902
+      sprite_132: -195134281
+      sprite_133: -1612002580
+      sprite_134: -2057661733
+      sprite_135: 757652397
+      sprite_136: -1425075124
+      sprite_137: -244693709
+      sprite_138: -298092658
+      sprite_139: -879582955
+      sprite_14: -1859352149
+      sprite_140: -1470526614
+      sprite_141: -2111118097
+      sprite_142: -509944177
+      sprite_143: -987933170
+      sprite_144: -1184834391
+      sprite_145: -317293520
+      sprite_146: 172983619
+      sprite_147: 164138439
+      sprite_148: -1320874865
+      sprite_149: 1751854112
+      sprite_15: 489233574
+      sprite_150: -632160547
+      sprite_151: 1958216187
+      sprite_152: 579689353
+      sprite_153: -750119914
+      sprite_154: -1405191081
+      sprite_155: 710111529
+      sprite_156: -2146824219
       sprite_157: 1370632542
       sprite_158: 1931622539
-      sprite_86: -1345421991
-      sprite_206: 1381546138
-      sprite_125: 1342592180
-      sprite_148: -1320874865
-      sprite_69: 1448431375
-      sprite_191: -2119187734
-      sprite_66: -904415217
-      sprite_22: -93688634
-      sprite_135: 757652397
-      sprite_32: -882328598
       sprite_159: -139961188
-      sprite_58: -962728313
-      sprite_54: 1534414538
-      sprite_173: -399608688
-      sprite_102: -499509285
-      sprite_198: -1466023192
-      sprite_100: 220552529
-      sprite_180: -304338912
-      sprite_177: -1828723117
-      sprite_85: 12182834
-      sprite_43: -1162559077
-      sprite_41: -1478653483
-      sprite_155: 710111529
-      sprite_150: -632160547
-      sprite_75: 447102560
-      sprite_26: 1289879802
-      sprite_95: -1331478361
-      sprite_81: 1132261364
-      sprite_156: -2146824219
-      sprite_133: -1612002580
-      sprite_14: -1859352149
-      sprite_79: -2039598833
-      sprite_59: 1704244772
-      sprite_23: -1317167259
-      sprite_134: -2057661733
-      sprite_62: 1568246212
-      sprite_82: 1292491123
+      sprite_16: -1524154313
+      sprite_160: -2083171577
+      sprite_161: 1254085499
       sprite_162: -1985572979
-      sprite_106: 199576401
-      sprite_185: -1901177623
-      sprite_114: 2002307898
+      sprite_163: 1466513993
+      sprite_164: 1544210938
+      sprite_165: 467596668
+      sprite_166: -1802152655
       sprite_167: 1065912080
-      sprite_122: 1174059750
-      sprite_33: -1921820712
-      sprite_76: 1532484835
-      sprite_108: 848546260
-      sprite_189: 1913434298
-      sprite_35: 106563299
-      sprite_56: 584735263
-      sprite_181: -1138526825
-      sprite_38: 34627330
+      sprite_168: 1754967795
+      sprite_169: 1259254233
+      sprite_17: -1921696105
+      sprite_170: 1694444419
+      sprite_171: 701137361
+      sprite_172: -744485067
+      sprite_173: -399608688
       sprite_174: 1414207045
       sprite_175: 1235496163
-      sprite_199: 1812699647
-      sprite_182: -906534601
-      sprite_18: 1251533068
-      sprite_188: -784264288
-      sprite_208: -94222569
-      sprite_7: -1210894933
-      sprite_51: 1309717591
+      sprite_176: 1886545279
+      sprite_177: -1828723117
       sprite_178: 40237583
-      sprite_97: -446228848
-      sprite_139: -879582955
-      sprite_137: -244693709
+      sprite_179: 299421332
+      sprite_18: 1251533068
+      sprite_180: -304338912
+      sprite_181: -1138526825
+      sprite_182: -906534601
+      sprite_183: -107880619
+      sprite_184: -1431145824
+      sprite_185: -1901177623
+      sprite_186: 2113411303
+      sprite_187: 1928544493
+      sprite_188: -784264288
+      sprite_189: 1913434298
+      sprite_19: -226601003
+      sprite_190: -473139573
+      sprite_191: -2119187734
+      sprite_192: -2003948035
+      sprite_193: 1008234012
+      sprite_194: -1533080778
+      sprite_195: -291813611
+      sprite_196: -1660722676
+      sprite_197: 1546185387
+      sprite_198: -1466023192
+      sprite_199: 1812699647
+      sprite_2: -1128610976
+      sprite_20: -26197230
+      sprite_200: 198689103
+      sprite_201: 1943348492
+      sprite_202: 1905753865
+      sprite_203: -148700009
+      sprite_204: -229240748
+      sprite_205: 966893042
+      sprite_206: 1381546138
+      sprite_207: -195131065
+      sprite_208: -94222569
+      sprite_209: 558978332
+      sprite_21: 1408406400
+      sprite_22: -93688634
+      sprite_23: -1317167259
+      sprite_24: 99879093
+      sprite_25: -1464097319
+      sprite_26: 1289879802
+      sprite_27: -203763495
+      sprite_28: 681533886
+      sprite_29: -1873225078
+      sprite_3: 302317674
+      sprite_30: -1084924630
+      sprite_31: -1181135058
+      sprite_32: -882328598
+      sprite_33: -1921820712
       sprite_34: 62061639
-      sprite_105: -237351302
-      sprite_8: 132176732
-      sprite_142: -509944177
+      sprite_35: 106563299
+      sprite_36: -2085618975
+      sprite_37: 1067290592
+      sprite_38: 34627330
+      sprite_39: 2014130096
       sprite_4: 1365081372
-      sprite_104: -527528946
-      sprite_109: 259054921
-      sprite_147: 164138439
-      sprite_0: -88803214
-  spritePackingTag: 
+      sprite_40: 1370538225
+      sprite_41: -1478653483
+      sprite_42: -1684352323
+      sprite_43: -1162559077
+      sprite_44: -1398546103
+      sprite_45: 1179612966
+      sprite_46: -1923069943
+      sprite_47: 1864637903
+      sprite_48: -1905645639
+      sprite_49: 1626177529
+      sprite_5: 1394508942
+      sprite_50: -326942530
+      sprite_51: 1309717591
+      sprite_52: -1654252031
+      sprite_53: -1461012059
+      sprite_54: 1534414538
+      sprite_55: -1263526504
+      sprite_56: 584735263
+      sprite_57: 928054345
+      sprite_58: -962728313
+      sprite_59: 1704244772
+      sprite_6: -523478865
+      sprite_60: 2022621685
+      sprite_61: -1555643099
+      sprite_62: 1568246212
+      sprite_63: -1834662487
+      sprite_64: 1050284282
+      sprite_65: 220745692
+      sprite_66: -904415217
+      sprite_67: 1387004998
+      sprite_68: -530392299
+      sprite_69: 1448431375
+      sprite_7: -1210894933
+      sprite_70: -1142318079
+      sprite_71: -192889783
+      sprite_72: 793998072
+      sprite_73: 942329745
+      sprite_74: 168612294
+      sprite_75: 447102560
+      sprite_76: 1532484835
+      sprite_77: 2063699777
+      sprite_78: -1514208640
+      sprite_79: -2039598833
+      sprite_8: 132176732
+      sprite_80: -959925290
+      sprite_81: 1132261364
+      sprite_82: 1292491123
+      sprite_83: 578499207
+      sprite_84: 1285216188
+      sprite_85: 12182834
+      sprite_86: -1345421991
+      sprite_87: -1120264234
+      sprite_88: 2100826739
+      sprite_89: 1187826756
+      sprite_9: 1450550923
+      sprite_90: -1278924391
+      sprite_91: -555407918
+      sprite_92: -1392951813
+      sprite_93: 787412923
+      sprite_94: 2080408786
+      sprite_95: -1331478361
+      sprite_96: 1490615903
+      sprite_97: -446228848
+      sprite_98: -1261922631
+      sprite_99: 829321168
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
